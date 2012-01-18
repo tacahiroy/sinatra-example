@@ -1,0 +1,10 @@
+doctype html
+html
+  head
+    meta charset="utf-8" 
+    title sinatra-template
+  body
+    form method="POST" action="/greeting"
+      label for="name" Name:
+      input#name name="name" type="text" maxlength="20"
+      input type="submit" value="Greet!"
