@@ -1,5 +1,5 @@
 # Sinatra project example
-## This project features following Gems.
+## This project features following libraries.
 
 * Sinatra
 * ActiveRecord
