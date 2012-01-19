@@ -12,6 +12,7 @@ gem "sinatra-activerecord", :require => "sinatra/activerecord"
 gem "sqlite3-ruby"
 
 group :development, :test do
+  gem "sinatra-contrib", :require => "sinatra/reloader"
   gem "growl"
   gem "rspec"
   gem "rack-test", :require => "rack/test"
